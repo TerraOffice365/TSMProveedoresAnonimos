@@ -1,0 +1,339 @@
+GET https://prod-15.brazilsouth.logic.azure.com:443/workflows/e395a93b7bb84fd0b4181d4d90a210c5/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=a3nCK48TwlPXW5zAvFbLOB6GH1u3tRNFeHvwl3K3G5w: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "192.168.100.3",
+        "family": "IPv4",
+        "port": 56722
+      },
+      "remote": {
+        "address": "191.235.86.199",
+        "family": "IPv4",
+        "port": 443
+      }
+    },
+    "tls": {
+      "reused": false,
+      "authorized": true,
+      "authorizationError": null,
+      "cipher": {
+        "name": "ECDHE-RSA-AES256-GCM-SHA384",
+        "standardName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "version": "TLSv1/SSLv3"
+      },
+      "protocol": "TLSv1.2",
+      "ephemeralKeyInfo": {},
+      "peerCertificate": {
+        "subject": {
+          "country": "US",
+          "stateOrProvince": "WA",
+          "locality": "Redmond",
+          "organization": "Microsoft Corporation",
+          "commonName": "brazilsouth.logic.azure.com",
+          "alternativeNames": "DNS:brazilsouth.logic.azure.com, DNS:*.brazilsouth.logic.azure.com"
+        },
+        "issuer": {
+          "country": "US",
+          "organization": "Microsoft Corporation",
+          "commonName": "Microsoft Azure TLS Issuing CA 01"
+        },
+        "validFrom": "Aug  9 19:31:00 2023 GMT",
+        "validTo": "Jun 27 23:59:59 2024 GMT",
+        "fingerprint": "30:3B:7E:5C:95:29:A6:3F:78:23:4B:81:9B:C7:06:46:8B:1A:24:14",
+        "serialNumber": "3300c301e9c0d5fc2d7fb548e2000000c301e9"
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.32.3",
+    "accept": "*/*",
+    "postman-token": "eb990735-a543-403b-8818-fc4370856e38",
+    "host": "prod-15.brazilsouth.logic.azure.com:443",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "transfer-encoding": "chunked",
+    "content-type": "application/json",
+    "content-encoding": "gzip",
+    "expires": "-1",
+    "vary": "Accept-Encoding",
+    "x-ms-workflow-run-id": "08585093206028091759020044608CU09",
+    "x-ms-correlation-id": "8aa1de5f-5d57-4335-8ae3-b8966d8d9113",
+    "x-ms-client-tracking-id": "08585093206028091759020044608CU09",
+    "x-ms-trigger-history-name": "08585093206028091759020044608CU09",
+    "x-ms-execution-location": "brazilsouth",
+    "x-ms-workflow-system-id": "/locations/brazilsouth/scaleunits/prod2-15/workflows/e395a93b7bb84fd0b4181d4d90a210c5",
+    "x-ms-workflow-id": "e395a93b7bb84fd0b4181d4d90a210c5",
+    "x-ms-workflow-version": "08585095034880186401",
+    "x-ms-workflow-name": "c4c45ecd-93c4-443e-a634-7acda36ea731",
+    "x-ms-tracking-id": "8aa1de5f-5d57-4335-8ae3-b8966d8d9113",
+    "x-ms-ratelimit-burst-remaining-workflow-reads": "856",
+    "x-ms-ratelimit-remaining-workflow-download-contentsize": "460174265",
+    "x-ms-ratelimit-time-remaining-directapirequests": "42855689",
+    "x-ms-request-id": "brazilsouth:8aa1de5f-5d57-4335-8ae3-b8966d8d9113",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "date": "Thu, 17 Aug 2023 15:31:23 GMT"
+  },
+  "Response Body": "[{\"DescRubro\":\"Rubro1\",\"IdRubro\":1},{\"DescRubro\":\"Rubro2\",\"IdRubro\":2}]"
+}
+POST https://prod-19.brazilsouth.logic.azure.com:443/workflows/77816755bddf4ae1bb8bc55a270e98f8/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=2P-qfnfhyf0-8pITXSAaGWmu6rSyNmdiyRMFpRUZybc: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "192.168.100.3",
+        "family": "IPv4",
+        "port": 49911
+      },
+      "remote": {
+        "address": "191.235.86.199",
+        "family": "IPv4",
+        "port": 443
+      }
+    },
+    "tls": {
+      "reused": false,
+      "authorized": true,
+      "authorizationError": null,
+      "cipher": {
+        "name": "ECDHE-RSA-AES256-GCM-SHA384",
+        "standardName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "version": "TLSv1/SSLv3"
+      },
+      "protocol": "TLSv1.2",
+      "ephemeralKeyInfo": {},
+      "peerCertificate": {
+        "subject": {
+          "country": "US",
+          "stateOrProvince": "WA",
+          "locality": "Redmond",
+          "organization": "Microsoft Corporation",
+          "commonName": "brazilsouth.logic.azure.com",
+          "alternativeNames": "DNS:brazilsouth.logic.azure.com, DNS:*.brazilsouth.logic.azure.com"
+        },
+        "issuer": {
+          "country": "US",
+          "organization": "Microsoft Corporation",
+          "commonName": "Microsoft Azure TLS Issuing CA 01"
+        },
+        "validFrom": "Aug  9 19:31:00 2023 GMT",
+        "validTo": "Jun 27 23:59:59 2024 GMT",
+        "fingerprint": "30:3B:7E:5C:95:29:A6:3F:78:23:4B:81:9B:C7:06:46:8B:1A:24:14",
+        "serialNumber": "3300c301e9c0d5fc2d7fb548e2000000c301e9"
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.32.3",
+    "accept": "*/*",
+    "postman-token": "3896c864-bd0e-4641-a444-27feb9113be5",
+    "host": "prod-19.brazilsouth.logic.azure.com:443",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "518"
+  },
+  "Request Body": "{\r\n    \"RAZONSOCIAL\":\"PRUEBARAZONSOCIAL\", \r\n    \"PERSONERIA\":\"PRUEBAPERSONERIA\", \r\n    \"NOMBREFANTASIA\":\"PRUEBANOMBREFANTASIA\",\r\n    \"RUBROS\":\"PRUEBARUBROS\", \r\n    \"EMAIL\":\"PRUEBAEMAIL\",\r\n    \"TELEFONO\":\"PRUEBATELEFONO\", \r\n    \"PAGINAWEB\":\"PRUEBAPAGINAWEB\",\r\n    \"PAIS\":\"PRUEBAPAIS\", \r\n    \"PROVINCIA\":\"PRUEBAPROVINCIA\",\r\n    \"CIUDAD\":\"PRUEBACIUDAD\",\r\n    \"CODIGOPOSTAL\":\"PRUEBACODPOSTAL\",\r\n    \"CALLE\":\"PRUEBACALLE\",\r\n    \"ALTURA\":\"PRUEBAALTURA\",\r\n    \"DEPARTAMENTO\":\"PRUEBADEPARETAMENTO\",\r\n    \"PISO\":\"PRUEBAPISO\"\r\n}",
+  "Response Headers": {
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "transfer-encoding": "chunked",
+    "content-type": "application/json; charset=utf-8",
+    "content-encoding": "gzip",
+    "expires": "-1",
+    "vary": "Accept-Encoding",
+    "x-ms-workflow-run-id": "08585093096561992362932279316CU27",
+    "x-ms-correlation-id": "b22ce9d1-f844-4261-8ff7-6419caa1f1cf",
+    "x-ms-client-tracking-id": "08585093096561992362932279316CU27",
+    "x-ms-trigger-history-name": "08585093096561992362932279316CU27",
+    "x-ms-execution-location": "brazilsouth",
+    "x-ms-workflow-system-id": "/locations/brazilsouth/scaleunits/prod2-19/workflows/77816755bddf4ae1bb8bc55a270e98f8",
+    "x-ms-workflow-id": "77816755bddf4ae1bb8bc55a270e98f8",
+    "x-ms-workflow-version": "08585098329417441499",
+    "x-ms-workflow-name": "ca9b775b-0685-a4e3-3405-6d47dd8e52c7",
+    "x-ms-tracking-id": "b22ce9d1-f844-4261-8ff7-6419caa1f1cf",
+    "x-ms-ratelimit-burst-remaining-workflow-writes": "641",
+    "x-ms-ratelimit-remaining-workflow-download-contentsize": "460174261",
+    "x-ms-ratelimit-remaining-workflow-upload-contentsize": "460173818",
+    "x-ms-ratelimit-time-remaining-directapirequests": "42855012",
+    "x-ms-request-id": "brazilsouth:b22ce9d1-f844-4261-8ff7-6419caa1f1cf",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "date": "Thu, 17 Aug 2023 18:33:51 GMT"
+  },
+  "Response Body": "{\"Mensaje\":\"Se ha generado de manera correcta el registro \",\"IdRegistro\":7}"
+}
+'Form param `resume`, file load error: "U8eijS0F0/constanciadecuil-20310926087.pdf", no such file'
+POST https://prod-149.westus.logic.azure.com:443/workflows/f8959bf08e2b4c598e40b0fb24b98f86/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=qHXE6mqUtLHiRKZq0XhaDzuXpBMlg64N06tBpZgMgA8: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "192.168.100.3",
+        "family": "IPv4",
+        "port": 49919
+      },
+      "remote": {
+        "address": "104.40.34.112",
+        "family": "IPv4",
+        "port": 443
+      }
+    },
+    "tls": {
+      "reused": false,
+      "authorized": true,
+      "authorizationError": null,
+      "cipher": {
+        "name": "ECDHE-RSA-AES256-GCM-SHA384",
+        "standardName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "version": "TLSv1/SSLv3"
+      },
+      "protocol": "TLSv1.2",
+      "ephemeralKeyInfo": {},
+      "peerCertificate": {
+        "subject": {
+          "country": "US",
+          "stateOrProvince": "WA",
+          "locality": "Redmond",
+          "organization": "Microsoft Corporation",
+          "commonName": "westus.logic.azure.com",
+          "alternativeNames": "DNS:westus.logic.azure.com, DNS:*.westus.logic.azure.com"
+        },
+        "issuer": {
+          "country": "US",
+          "organization": "Microsoft Corporation",
+          "commonName": "Microsoft Azure TLS Issuing CA 06"
+        },
+        "validFrom": "Aug  7 14:19:01 2023 GMT",
+        "validTo": "Jun 27 23:59:59 2024 GMT",
+        "fingerprint": "57:D0:54:2E:6F:39:E0:76:98:0F:FE:2E:02:E8:C9:BC:8F:37:20:68",
+        "serialNumber": "3300ccb1ca2b55b7e363a9701e000000ccb1ca"
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.32.3",
+    "accept": "*/*",
+    "postman-token": "0b6d278a-2e28-4554-9938-90d45514f30d",
+    "host": "prod-149.westus.logic.azure.com:443",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-type": "multipart/form-data; boundary=--------------------------146163986043211868637258",
+    "content-length": "225"
+  },
+  "Request Body": {
+    "formdata": "{\n\"NombreArchivo\": \"EstoEsUnaPrueba.pdf\",\n\"IdRegistro\": \"8\"\n\n}"
+  },
+  "Response Headers": {
+    "content-length": "0",
+    "date": "Thu, 17 Aug 2023 18:34:04 GMT",
+    "cache-control": "no-cache",
+    "expires": "-1",
+    "pragma": "no-cache",
+    "set-cookie": [
+      "ARRAffinity=11d21885d0939e62145f3556b341bff57859fec14ed84d4e7de98800f33e35d5;Path=/;HttpOnly;Secure;Domain=prod-149.westus.logic.azure.com",
+      "ARRAffinitySameSite=11d21885d0939e62145f3556b341bff57859fec14ed84d4e7de98800f33e35d5;Path=/;HttpOnly;SameSite=None;Secure;Domain=prod-149.westus.logic.azure.com"
+    ],
+    "x-ms-workflow-run-id": "08585093096439462570383823081CU70",
+    "x-ms-correlation-id": "842e67fb-dddd-4f9e-b9df-ce0613a34470",
+    "x-ms-client-tracking-id": "08585093096439462570383823081CU70",
+    "x-ms-trigger-history-name": "08585093096439462570383823081CU70",
+    "x-ms-execution-location": "westus",
+    "x-ms-workflow-system-id": "/locations/westus/scaleunits/prod-149/workflows/f8959bf08e2b4c598e40b0fb24b98f86",
+    "x-ms-workflow-id": "f8959bf08e2b4c598e40b0fb24b98f86",
+    "x-ms-workflow-version": "08585096759455805678",
+    "x-ms-workflow-name": "789fb56a-11cc-4980-bcc7-b085bb439fda",
+    "x-ms-tracking-id": "842e67fb-dddd-4f9e-b9df-ce0613a34470",
+    "x-ms-ratelimit-burst-remaining-workflow-writes": "144",
+    "x-ms-ratelimit-remaining-workflow-download-contentsize": "103910400",
+    "x-ms-ratelimit-remaining-workflow-upload-contentsize": "103910175",
+    "x-ms-ratelimit-time-remaining-directapirequests": "9672189",
+    "x-ms-request-id": "westus:842e67fb-dddd-4f9e-b9df-ce0613a34470",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+  }
+}
+POST https://prod-149.westus.logic.azure.com:443/workflows/f8959bf08e2b4c598e40b0fb24b98f86/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=qHXE6mqUtLHiRKZq0XhaDzuXpBMlg64N06tBpZgMgA8: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "192.168.100.3",
+        "family": "IPv4",
+        "port": 49919
+      },
+      "remote": {
+        "address": "104.40.34.112",
+        "family": "IPv4",
+        "port": 443
+      }
+    },
+    "tls": {
+      "reused": false,
+      "authorized": true,
+      "authorizationError": null,
+      "cipher": {
+        "name": "ECDHE-RSA-AES256-GCM-SHA384",
+        "standardName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "version": "TLSv1/SSLv3"
+      },
+      "protocol": "TLSv1.2",
+      "ephemeralKeyInfo": {},
+      "peerCertificate": {
+        "subject": {
+          "country": "US",
+          "stateOrProvince": "WA",
+          "locality": "Redmond",
+          "organization": "Microsoft Corporation",
+          "commonName": "westus.logic.azure.com",
+          "alternativeNames": "DNS:westus.logic.azure.com, DNS:*.westus.logic.azure.com"
+        },
+        "issuer": {
+          "country": "US",
+          "organization": "Microsoft Corporation",
+          "commonName": "Microsoft Azure TLS Issuing CA 06"
+        },
+        "validFrom": "Aug  7 14:19:01 2023 GMT",
+        "validTo": "Jun 27 23:59:59 2024 GMT",
+        "fingerprint": "57:D0:54:2E:6F:39:E0:76:98:0F:FE:2E:02:E8:C9:BC:8F:37:20:68",
+        "serialNumber": "3300ccb1ca2b55b7e363a9701e000000ccb1ca"
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.32.3",
+    "accept": "*/*",
+    "postman-token": "dcdc4d21-48cc-4bb1-a3e4-76b48b57b863",
+    "host": "prod-149.westus.logic.azure.com:443",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-type": "multipart/form-data; boundary=--------------------------250085029323811455717015",
+    "cookie": "ARRAffinity=11d21885d0939e62145f3556b341bff57859fec14ed84d4e7de98800f33e35d5; ARRAffinitySameSite=11d21885d0939e62145f3556b341bff57859fec14ed84d4e7de98800f33e35d5",
+    "content-length": "21310"
+  },
+  "Request Body": {
+    "resume": "",
+    "formdata": "{\n\"NombreArchivo\": \"EstoEsUnaPrueba.pdf\",\n\"IdRegistro\": \"8\"\n\n}"
+  },
+  "Response Headers": {
+    "content-length": "0",
+    "date": "Thu, 17 Aug 2023 18:34:27 GMT",
+    "cache-control": "no-cache",
+    "expires": "-1",
+    "pragma": "no-cache",
+    "x-ms-workflow-run-id": "08585093096180589299833114410CU90",
+    "x-ms-correlation-id": "8f98d568-e471-4fcb-9f06-35eaa3c5ea95",
+    "x-ms-client-tracking-id": "08585093096180589299833114410CU90",
+    "x-ms-trigger-history-name": "08585093096180589299833114410CU90",
+    "x-ms-execution-location": "westus",
+    "x-ms-workflow-system-id": "/locations/westus/scaleunits/prod-149/workflows/f8959bf08e2b4c598e40b0fb24b98f86",
+    "x-ms-workflow-id": "f8959bf08e2b4c598e40b0fb24b98f86",
+    "x-ms-workflow-version": "08585096759455805678",
+    "x-ms-workflow-name": "789fb56a-11cc-4980-bcc7-b085bb439fda",
+    "x-ms-tracking-id": "8f98d568-e471-4fcb-9f06-35eaa3c5ea95",
+    "x-ms-ratelimit-burst-remaining-workflow-writes": "143",
+    "x-ms-ratelimit-remaining-workflow-download-contentsize": "103910400",
+    "x-ms-ratelimit-remaining-workflow-upload-contentsize": "103888865",
+    "x-ms-ratelimit-time-remaining-directapirequests": "9672083",
+    "x-ms-request-id": "westus:8f98d568-e471-4fcb-9f06-35eaa3c5ea95",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+  }
+}
